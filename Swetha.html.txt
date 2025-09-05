@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Simple Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f9f9f9;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: white;
+    }
+    img {
+      display: block;
+      margin: 20px auto;
+      width: 200px;
+      border-radius: 100px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 30px 0;
+    }
+    th, td {
+      padding: 12px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+    th {
+      background-color: #eee;
+    }
+    form {
+      background-color: #fff;
+      padding: 20px;
+      border: 1px solid #ddd;
+      max-width: 500px;
+      margin: 30px auto;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+    }
+    input[type="submit"] {
+      background-color: #333;
+      color: white;
+      border: none;
+      cursor: pointer;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+    <p>Frontend Developer | Designer | Freelancer</p>
+  </header>
+
+  <!-- Profile Image -->
+  <img src="https://via.placeholder.com/200" alt="Profile Image">
+
+  <!-- Portfolio Table -->
+  <section>
+    <h2>My Projects</h2>
+    <table>
+      <tr>
+        <th>Project Name</th>
+        <th>Description</th>
+        <th>Link</th>
+      </tr>
+      <tr>
+        <td>Portfolio Website</td>
+        <td>Personal site to showcase my skills</td>
+        <td><a href="#">View</a></td>
+      </tr>
+      <tr>
+        <td>To-Do App</td>
+        <td>Simple app to manage daily tasks</td>
+        <td><a href="#">View</a></td>
+      </tr>
+      <tr>
+        <td>Blog Design</td>
+        <td>Responsive layout for a tech blog</td>
+        <td><a href="#">View</a></td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Contact Form -->
+  <section>
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <input type="submit" value="Send Message">
+    </form>
+  </section>
+
+</body>
+</html>
